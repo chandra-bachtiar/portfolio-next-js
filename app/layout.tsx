@@ -6,8 +6,8 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
 	title: {
-		default: "chand.my.id",
-		template: "%s | chand.my.id",
+		default: "Chandra Bachtiar",
+		template: "%s | Chandra Bachtiar",
 	},
 	description: "Software engineer at infimedia.co.id as a Laravel Developer",
 	openGraph: {
