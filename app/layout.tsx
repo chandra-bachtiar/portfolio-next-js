@@ -6,23 +6,16 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
 	title: {
-		default: "chronark.com",
-		template: "%s | chronark.com",
+		default: "chand.my.id",
+		template: "%s | chand.my.id",
 	},
-	description: "Software engineer at upstash.com and founder of planetfall.io",
+	description: "Software engineer at infimedia.co.id as a Laravel Developer",
 	openGraph: {
-		title: "chronark.com",
+		title: "chand.my.id",
 		description:
-			"Software engineer at upstash.com and founder of planetfall.io",
-		url: "https://chronark.com",
-		siteName: "chronark.com",
-		images: [
-			{
-				url: "https://chronark.com/og.png",
-				width: 1920,
-				height: 1080,
-			},
-		],
+			"Software engineer at infimedia.co.id as a Laravel Developer",
+		url: "https://chand.my.id",
+		siteName: "chand.my.id",
 		locale: "en-US",
 		type: "website",
 	},
@@ -38,7 +31,7 @@ export const metadata: Metadata = {
 		},
 	},
 	twitter: {
-		title: "Chronark",
+		title: "Chandra Bachtiar",
 		card: "summary_large_image",
 	},
 	icons: {

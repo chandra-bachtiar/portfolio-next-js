@@ -27,16 +27,17 @@ export async function generateStaticParams(): Promise<Props["params"][]> {
 export default async function PostPage({ params }: Props) {
 	const slug = params?.slug;
 	const project = allProjects.find((project) => project.slug === slug);
-
 	if (!project) {
 		notFound();
 	}
+	// console.log(project.body.code);
 
-	const views =
-		(await redis.get<number>(["pageviews", "projects", slug].join(":"))) ?? 0;
+
+	// const views = (await redis.get<number>(["pageviews", "projects", slug].join(":"))) ?? 0;
+	const views = 0;
 
 	return (
-		<div className="bg-zinc-50 min-h-screen">
+		<div className="min-h-screen bg-zinc-50">
 			<Header project={project} views={views} />
 			<ReportView slug={project.slug} />
 

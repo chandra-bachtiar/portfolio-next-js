@@ -1,0 +1,64 @@
+---
+title: "laravel-shortlink"
+description: Streamline your web addresses with our Laravel-powered URL shortening service. Create concise, user-friendly links for social media, marketing, and more. Simplify your URLs today!
+repository: chandra-bachtiar/laravel-shortlink
+date: "2023-06-27"
+published: true
+slug: "laravel-shortlink"
+
+---
+The website is a URL shortening service designed to make long web addresses more concise and user-friendly. It is built using the Laravel framework, a popular PHP framework known for its elegant syntax and robust features. With this website, users can enter lengthy URLs and receive shortened versions that are easier to read, share, and remember. Whether it's for social media posts, marketing campaigns, or simply tidying up long links, this website provides a convenient solution for optimizing URL readability.
+
+## Technologies Used
+- Tailwind CSS
+- Laravel 10
+- PHP > 8.1
+- MySQL
+- Laravel/Brezze
+- Composer
+
+## Install
+
+Install the dependencies and devDependencies and start the server.
+```sh-session
+composer install
+```
+
+Copy .env.example to .env and edit the database credentials accordingly.
+```sh-session
+cp .env.example .env
+```
+
+Generate the application key.
+```sh-session
+php artisan key:generate
+```
+
+Run the database migrations (Set the database connection in .env before migrating).
+```sh-session
+php artisan migrate
+```
+
+Run the database seeder and you're done.
+```sh-session
+php artisan db:seed
+```
+
+## Development
+
+Want to contribute? Great!
+
+Laravel Shortlink uses Tailwind CSS for fast developing.
+Make a change in your file and instantaneously see your updates!
+
+Open your favorite Terminal and run these commands.
+
+First Tab:
+```sh-session
+php artisan serve
+```
+
+Second Tab:
+```sh-session
+npm run dev
+```

@@ -7,21 +7,21 @@ import { Card } from "../components/card";
 const socials = [
 	{
 		icon: <Twitter size={20} />,
-		href: "https://twitter.com/chronark_",
+		href: "https://twitter.com/Chaaannd",
 		label: "Twitter",
-		handle: "@chronark_",
+		handle: "@Chaaannd",
 	},
 	{
 		icon: <Mail size={20} />,
-		href: "mailto:dev@chronark.com",
+		href: "mailto:mail@chand.my.id",
 		label: "Email",
-		handle: "dev@chronark.com",
+		handle: "mail@chand.my.id",
 	},
 	{
 		icon: <Github size={20} />,
-		href: "https://github.com/chronark",
+		href: "https://github.com/chandra-bachtiar",
 		label: "Github",
-		handle: "chronark",
+		handle: "chandra-bachtiar",
 	},
 ];
 
@@ -36,7 +36,7 @@ export default function Example() {
 							<Link
 								href={s.href}
 								target="_blank"
-								className="p-4 relative flex flex-col items-center gap-4 duration-700 group md:gap-8 md:py-24  lg:pb-48  md:p-16"
+								className="relative flex flex-col items-center gap-4 p-4 duration-700 group md:gap-8 md:py-24 lg:pb-48 md:p-16"
 							>
 								<span
 									className="absolute w-px h-2/3 bg-gradient-to-b from-zinc-500 via-zinc-500/50 to-transparent"
